@@ -1,0 +1,23 @@
+{
+  "$schema": "https://code.claude.com/schemas/marketplace.json",
+  "name": "archlint",
+  "owner": {
+    "name": "Marcelo Kanhan"
+  },
+  "description": "archlint — architectural drift guardrail for AI coding agents (free MIT lite tier).",
+  "plugins": [
+    {
+      "name": "archlint",
+      "source": "./",
+      "description": "Catches architectural drift while the agent writes code — checks edited files' imports against the layer rules in your CLAUDE.md, live in the agent loop. Free MIT lite tier.",
+      "author": {
+        "name": "Marcelo Kanhan"
+      },
+      "homepage": "https://archlint.pro",
+      "repository": "https://github.com/MKanhan/archlint",
+      "license": "MIT",
+      "keywords": ["architecture", "drift", "linting", "layers", "hooks", "claude-code"],
+      "category": "code-quality"
+    }
+  ]
+}

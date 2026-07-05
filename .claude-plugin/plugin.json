@@ -1,0 +1,14 @@
+{
+  "name": "archlint",
+  "displayName": "archlint",
+  "version": "0.15.0",
+  "description": "Catches architectural drift while the agent writes code — checks edited files' imports against layer rules declared in your CLAUDE.md.",
+  "author": {
+    "name": "Marcelo Kanhan",
+    "url": "https://github.com/MKanhan/archlint"
+  },
+  "homepage": "https://github.com/MKanhan/archlint",
+  "repository": "https://github.com/MKanhan/archlint",
+  "license": "MIT",
+  "keywords": ["architecture", "linting", "drift", "hooks", "layers"]
+}
